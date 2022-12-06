@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de notícias galáticas</title>
+    <link rel="stylesheet" href="styles/card.css">
+
+    <!--script-->
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+
+</head>
+<body>
+   <div class="container">
+
+        <!-- <div class="card">
+            <div class="card__left">
+                <span>By Lilian Marques</span>
+                <a href="#">Darth Vader Contrata Devs</a>
+                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes </p>
+            </div>
+
+            <div class="card__rigth">
+                <img src="assets/asset-vader.png" alt="Darth Vader">
+            </div>
+        </div> -->
+    </div>
+
+    <!--   CRIAÇÃO CARD -->
+    <card-news 
+        autor="Lilian"
+        tittle=" Darth Vader contrata"
+        link-url="www.google.com"
+        photo="assets/asset-vader.png"
+        contet= "Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+    > 
+    </card-news>
+   
+    <card-news 
+    autor = ""
+    tittle = "Mestre Yoda"
+    link-url = "www.google.com"
+    photo="" 
+    contet="A pequena estatura de Yoda esconde um dos Jedi mais poderosos da história. 
+    Yoda domina tanto o sabre de luz quanto o poder da Força."
+    ></card-news>
+
+    </card-news>
+</body>
+</html>
